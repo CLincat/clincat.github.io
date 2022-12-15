@@ -1,4 +1,4 @@
-# ThinkPHP多语言RCE (QVD-2022-46174)
+# ThinkPHP多语言RCE (CNVD-2022-86535)
 
 * 运行环境
 ```
