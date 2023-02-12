@@ -36,9 +36,6 @@ jobs:
         MYEMAIL: kasterborous@qq.com                  # ！！记得修改为自己github设置的邮箱
         MYNAME: ${{github.repository_owner}}          
       run: |
-        cd _book
-        mkdir vulcat-docs
-        cp -r ./* vulcat-docs/
         git config --global user.email "${MYEMAIL}"
         git config --global user.name "${MYNAME}"
         git init
