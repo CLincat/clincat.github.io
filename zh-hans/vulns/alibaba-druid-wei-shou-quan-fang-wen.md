@@ -2,18 +2,27 @@
 
 ### 1）漏洞信息
 
-| 漏洞名称                         | 漏洞编号 | 漏洞简介                                                                                                                               | 影响版本  | 修复建议                                                                                                                                                                                                                                                                              |
-| ---------------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>阿里巴巴Druid</p><p>未授权访问</p> | 暂无   | <p>    Druid是阿里巴巴数据库事业部出品，为监控而生的数据库连接池。</p><p>    Druid提供监控功能，监控SQL的执行时间、Web URI的请求、Session等。</p><p>    当开发者配置不当时就可能造成未授权访问漏洞。</p> | ----- | <ol><li><a href="https://www.cxybb.com/article/qq_46119575/128542168">https://www.cxybb.com/article/qq_46119575/128542168</a></li><li><a href="https://blog.csdn.net/hawinlolo/article/details/125481204">https://blog.csdn.net/hawinlolo/article/details/125481204</a></li></ol> |
+|漏洞名称	|受影响组件	|漏洞类型	|漏洞编号	|
+|--	|--	|--	|--	|
+|阿里巴巴Druid未授权访问	|[Alibaba Druid](https://github.com/alibaba/druid)	|未授权访问	|暂无	|
+
+|漏洞简介	|
+|--	|
+|<p>    Druid是阿里巴巴数据库事业部出品，为监控而生的数据库连接池。</p><p>    Druid提供监控功能，监控SQL的执行时间、Web URI的请求、Session等。</p><p>    当开发者配置不当时就可能造成未授权访问漏洞。</p>	|
+
+|参考链接	|
+|--	|
+|<ol><li><a href="https://www.cxybb.com/article/qq_46119575/128542168">https://www.cxybb.com/article/qq_46119575/128542168</a></li><li><a href="https://blog.csdn.net/hawinlolo/article/details/125481204">https://blog.csdn.net/hawinlolo/article/details/125481204</a></li></ol>	|
+
+
 
 ### 2）vulcat验证过程
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+```
+python3 vulcat.py -u <URL> -a alidruid
+```
 
-<figure><img src="../.gitbook/assets/alidruid-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/CLincat/blog-imgs/blob/main/vulcat-docs/vulns/alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
 
-### 3）参考链接：
+<figure><img src="https://github.com/CLincat/blog-imgs/blob/main/vulcat-docs/vulns/alibaba/druid_unauth_02.png" alt=""><figcaption></figcaption></figure>
 
-[https://blog.csdn.net/a987212198/article/details/122600940](https://blog.csdn.net/a987212198/article/details/122600940)
-
-[https://www.cnblogs.com/macter/p/16182880.html](https://www.cnblogs.com/macter/p/16182880.html)
