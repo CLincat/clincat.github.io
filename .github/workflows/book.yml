@@ -38,7 +38,7 @@ jobs:
       run: |
         cd _book
         mkdir vulcat-docs
-        cp ./* vulcat-docs/
+        cp -r ./* vulcat-docs/
         git config --global user.email "${MYEMAIL}"
         git config --global user.name "${MYNAME}"
         git init
