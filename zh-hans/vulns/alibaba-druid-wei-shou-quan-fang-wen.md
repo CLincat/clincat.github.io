@@ -22,7 +22,7 @@
 python3 vulcat.py -u <URL> -a alidruid
 ```
 
-<figure><img src="https://github.com/CLincat/blog-imgs/blob/main/vulcat-docs/vulns/alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/vulns/alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://github.com/CLincat/blog-imgs/blob/main/vulcat-docs/vulns/alibaba/druid_unauth_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/vulns/alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
 
