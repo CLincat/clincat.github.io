@@ -12,14 +12,14 @@ python安装教程可以参考：[https://www.runoob.com/python3/python3-install
 
 1. 可以在[https://github.com/CLincat/vulcat/releases](https://github.com/CLincat/vulcat/releases)下载vulcat的**压缩包**，进行解压后再使用
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/download/install_01.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (26).png>)
 
 2. 也可以通过**Git**拉取vulcat
 
 <pre class="language-git"><code class="lang-git"><strong>git clone https://github.com/CLincat/vulcat
 </strong></code></pre>
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/download/install_02.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (51).png>)
 
 ## 3/ vulcat依赖安装
 
@@ -37,7 +37,7 @@ python3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/si
 py -3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 ```
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/download/install_03.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (38).png>)
 
 ## 4/ 运行vulcat
 
@@ -45,9 +45,9 @@ py -3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simp
 
 如果没有异常报错，说明运行正常
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/download/install_04.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (29).png>)
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/download/install_05.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (7).png>)
 
 
 

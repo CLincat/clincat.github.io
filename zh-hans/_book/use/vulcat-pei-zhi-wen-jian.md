@@ -8,9 +8,9 @@
 
 该文件位于**vulcat/config.yaml**，里面定义了vulcat的一些基本参数：**语言、ceye.io支持、默认Headers**等
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_01.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (23).png>)
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_02.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (32).png>)
 
 ### 1.1/ 语言
 
@@ -20,9 +20,9 @@ vulcat支持中文和英文，默认为英文，用户可以通过config.yaml进
 
 修改完毕后，保存退出，再次运行vulcat，可以看到已经变为了中文
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_03.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (15).png>)
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_04.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (52).png>)
 
 ### 1.2/ ceye.io支持
 
@@ -32,17 +32,17 @@ vulcat默认使用的DNSLOG平台是[http://www.dnslog.cn/](http://www.dnslog.cn
 
 如果你想使用ceye.io，则需要在官网进行注册，在你的个人主页获得专属的 域名和Token
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_05.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (48).png>)
 
 然后将你的 域名和Token 填写到config.yaml对应的地方，保存文件即可
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_06.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (19).png>)
 
 ### 1.3/ 默认Headers
 
 vulcat发送的所有HTTP请求，将默认带有以下Headers
 
-<figure><img src="https://raw.githubusercontent.com/CLincat/blog-imgs/main/vulcat-docs/use/config/config_07.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/图片 (16).png>)
 
 vulcat有一个--user-agent参数，可以使用自定义的User-Agent头
 
