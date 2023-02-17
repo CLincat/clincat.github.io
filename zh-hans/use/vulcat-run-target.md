@@ -11,16 +11,16 @@ python3 vulcat.py --url http://xxx.com
 
 我这里使用python 启动一个本地的HTTP服务器进行测试：
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-1-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-1-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-1-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-1-2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-1-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-1-3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-1-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-1-4.png" alt=""><figcaption></figcaption></figure>
 
 
-<figure>如果目标站点无法访问，则：<img src="../../../../../static/imgs/usage/usage_02-1-5.png" alt=""><figcaption></figcaption></figure>
+<figure>如果目标站点无法访问，则：<img src="../../static/imgs/usage/usage_02-1-5.png" alt=""><figcaption></figcaption></figure>
 
 ## -f/--file
 
@@ -30,9 +30,9 @@ python3 vulcat.py --url http://xxx.com
 python3 vulcat.py -f url.txt
 ```
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-2-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-2-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-2-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-2-2.png" alt=""><figcaption></figcaption></figure>
 
 可以看到，url.txt里面有3个站点，vulcat会逐个去扫描
 
@@ -46,7 +46,7 @@ python3 vulcat.py -f url.txt
 
 默认情况下，vulcat**只会检测zxc/目录下有无漏洞**，而不会去检测 根目录、qwe/以及asd/目录，这可能会导致你错过某个漏洞：
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-3-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-3-1.png" alt=""><figcaption></figcaption></figure>
 
 如果手动指定每个路径 又太麻烦了，这时候你可以使用-r/--recursive参数
 
@@ -56,7 +56,7 @@ python3 vulcat.py -u http://192.168.80.1/qwe/asd/zxc/ -r
 
 添加-r参数之后，vulcat将会从 站点根目录开始检测，一直到最后一个目录：
 
-<figure><img src="../../../../../static/imgs/usage/usage_02-3-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/usage/usage_02-3-2.png" alt=""><figcaption></figcaption></figure>
 
 建议每次扫描时都添加-r参数，这样可以扩大检测范围，提高漏洞发现几率
 

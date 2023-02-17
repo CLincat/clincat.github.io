@@ -25,13 +25,13 @@
 python3 vulcat.py -u <URL> -a alidruid
 ```
 
-<figure><img src="../../../../../static/imgs/vulns-alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/vulns-alibaba/druid_unauth_01.png" alt=""><figcaption></figcaption></figure>
 
 Target返回了一个URL链接，访问后可以看到Druid界面
 ```
 http://XXX/druid/index.html
 ```
 
-<figure><img src="../../../../../static/imgs/vulns-alibaba/druid_unauth_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/vulns-alibaba/druid_unauth_02.png" alt=""><figcaption></figcaption></figure>
 
 待更新...

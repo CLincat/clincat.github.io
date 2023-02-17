@@ -5,6 +5,6 @@
 * 默认Request Header
 
 
-<figure><img src="../../../../../static/imgs/config/config_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/config/config_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../static/imgs/config/config_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../static/imgs/config/config_02.png" alt=""><figcaption></figcaption></figure>
