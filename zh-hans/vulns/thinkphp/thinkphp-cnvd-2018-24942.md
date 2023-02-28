@@ -20,7 +20,8 @@
 
 ### 漏洞环境
 
-* 方案一：使用[vulhub](https://github.com/vulhub/vulhub)搭建漏洞环境
+#### 方案一
+使用[vulhub](https://github.com/vulhub/vulhub)搭建漏洞环境
 
 ```
 git clone https://github.com/vulhub/vulhub
@@ -33,7 +34,8 @@ docker-compose up -d
 <figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_01.png" alt=""><figcaption></figcaption></figure>
 
 
-* 方案二：使用[vulfocus](https://github.com/fofapro/vulfocus)搭建漏洞环境
+#### 方案二
+使用[vulfocus](https://github.com/fofapro/vulfocus)搭建漏洞环境
 
 ```
 docker pull vulfocus/thinkphp-cnvd_2018_24942
