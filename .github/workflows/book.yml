@@ -40,6 +40,7 @@ jobs:
         mkdir base/vulcat-docs
         cp -r _book/* base/vulcat-docs
         cp hub/README.md base/
+        cp -r vuepress/* base/
         cd base
         git config --global user.email "${MYEMAIL}"
         git config --global user.name "${MYNAME}"
