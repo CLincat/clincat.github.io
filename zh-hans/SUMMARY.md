@@ -25,6 +25,8 @@
 * [AliBaba](vulns/alibaba/alibaba-druid-unauth.md)
   * [💛 Druid 未授权访问](vulns/alibaba/alibaba-druid-unauth.md)
   * [💛 Nacos CVE-2021-29441](vulns/alibaba/alibaba-nacos-cve-2021-29441.md)
+* [Apache Airflow](vulns/apache-airflow/airflow-cve-2020-17526.md)
+  * [CVE-2020-17526](vulns/apache-airflow/airflow-cve-2020-17526.md)
 * [GoCD](vulns/gocd/gocd-cve-2021-43287.md)
   * [🧡 CVE-2021-43287](vulns/gocd/gocd-cve-2021-43287.md)
 * [JBoss](vulns/jboss/jboss-unauth.md)
