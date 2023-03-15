@@ -31,7 +31,7 @@ docker-compose up -d
 
 启动vulhub环境后，访问8080端口即可看到thinkphp页面
 
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/01.png" alt=""><figcaption></figcaption></figure>
 
 
 #### 方案二
@@ -44,23 +44,26 @@ docker run -itd -p 80:80 vulfocus/thinkphp-cnvd_2018_24942
 
 启动vulfocus环境后，访问80端口即可看到thinkphp页面
 
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/02.png" alt=""><figcaption></figcaption></figure>
 
 
 ### 漏洞复现
 
 ```
 python3 vulcat.py -u <URL> -a thinkphp -v cnvd-2018-24942
+
+# 注意, vulcat-v2.0.0版本及以上, 应使用以下命令
+python3 vulcat.py -u <URL> -v cnvd-2018-24942
 ```
 
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/03.png" alt=""><figcaption></figcaption></figure>
 
 直接访问漏洞URL
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/04.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/05.png" alt=""><figcaption></figcaption></figure>
 
 vulfocus漏洞环境：
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/06.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/vulns-thinkphp/cnvd-2018-24942/thinkphp_cnvd_2018_24942_07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/thinkphp/cnvd-2018-24942/07.png" alt=""><figcaption></figcaption></figure>

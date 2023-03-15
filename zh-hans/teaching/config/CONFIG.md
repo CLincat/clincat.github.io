@@ -3,8 +3,9 @@
 * 语言
 * ceye.io的 域名和Token
 * 默认Request Header
+* 攻击载荷路径
 
 
-<figure><img src="../../../static/imgs/config/config_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/config/config_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/config/config_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/config/config_02.png" alt=""><figcaption></figcaption></figure>

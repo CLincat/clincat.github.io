@@ -12,14 +12,14 @@ python安装教程可以参考：[https://www.runoob.com/python3/python3-install
 
 * 可以在[https://github.com/CLincat/vulcat/releases](https://github.com/CLincat/vulcat/releases)下载vulcat的**压缩包**，进行解压后再使用
 
-<figure><img src="../../../static/imgs/install/install_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/install/install_01.png" alt=""><figcaption></figcaption></figure>
 
 * 也可以通过**Git**拉取vulcat
 
 <pre class="language-git"><code class="lang-git"><strong>git clone https://github.com/CLincat/vulcat
 </strong></code></pre>
 
-<figure><img src="../../../static/imgs/install/install_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/install/install_02.png" alt=""><figcaption></figcaption></figure>
 
 ## 3/ vulcat依赖安装
 
@@ -37,7 +37,7 @@ python3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/si
 py -3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 ```
 
-<figure><img src="../../../static/imgs/install/install_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/install/install_03.png" alt=""><figcaption></figcaption></figure>
 
 ## 4/ 运行vulcat
 
@@ -45,9 +45,9 @@ py -3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simp
 
 如果没有异常报错，说明运行正常
 
-<figure><img src="../../../static/imgs/install/install_04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/install/install_04.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/install/install_05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/install/install_05.png" alt=""><figcaption></figcaption></figure>
 
 
 

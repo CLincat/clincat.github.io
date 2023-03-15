@@ -11,7 +11,7 @@ python3 vulcat.py -u http://192.168.80.1/ -t 10
 python3 vulcat.py -u http://192.168.80.1/ --thread 10
 ```
 
-<figure>如图，进度条右边显示的总数缩短为了x/11（与默认线程进行对比）<img src="../../../static/imgs/usage/thread.png" alt=""><figcaption></figcaption></figure>
+<figure>如图，进度条右边显示的总数缩短为了x/11（与默认线程进行对比）<img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/thread.png" alt=""><figcaption></figcaption></figure>
 
 ## --delay（加快/放慢 扫描速度）
 
@@ -29,7 +29,7 @@ python3 vulcat.py -u http://192.168.80.1/ --thread 10
 python3 vulcat.py -u http://192.168.80.1/ --delay 0.3
 ```
 
-<figure><img src="../../../static/imgs/usage/delay.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/delay.png" alt=""><figcaption></figcaption></figure>
 
 ## --timeout（网络延迟高的时候，将该参数调高）
 
@@ -45,7 +45,7 @@ python3 vulcat.py -u http://192.168.80.1/ --delay 0.3
 python3 vulcat.py -u http://192.168.80.1/ --timeout 30
 ```
 
-<figure><img src="../../../static/imgs/usage/timeout.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/timeout.png" alt=""><figcaption></figcaption></figure>
 
 ## --user-agent
 
@@ -56,13 +56,13 @@ python3 vulcat.py -u http://192.168.80.1/ --timeout 30
 python3 vulcat.py -u http://192.168.80.1/ --user-agent "abcdefg" --http-proxy 192.168.80.1:8080
 ```
 
-<figure><img src="../../../static/imgs/usage/useragent_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/useragent_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/usage/useragent_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/useragent_02.png" alt=""><figcaption></figcaption></figure>
 
 可以看到参数已经生效
 
-<figure><img src="../../../static/imgs/usage/useragent_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/useragent_03.png" alt=""><figcaption></figcaption></figure>
 
 ## --cookie
 
@@ -72,9 +72,9 @@ python3 vulcat.py -u http://192.168.80.1/ --user-agent "abcdefg" --http-proxy 19
 python3 vulcat.py -u http://192.168.80.1/ --cookie "sessid=xxxxxx; user=admin" --http-proxy 192.168.80.1:8080
 ```
 
-<figure><img src="../../../static/imgs/usage/cookie_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/cookie_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/usage/cookie_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/cookie_02.png" alt=""><figcaption></figcaption></figure>
 
 ## --auth
 
@@ -84,6 +84,6 @@ python3 vulcat.py -u http://192.168.80.1/ --cookie "sessid=xxxxxx; user=admin" -
 python3 vulcat.py -u http://192.168.80.1/ --auth "Basic YWRtaW46YWRtaW4=" --http-proxy 192.168.80.1:8080
 ```
 
-<figure><img src="../../../static/imgs/usage/auth_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/auth_01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../static/imgs/usage/auth_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/auth_02.png" alt=""><figcaption></figcaption></figure>

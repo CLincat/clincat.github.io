@@ -25,36 +25,43 @@ docker pull jenkins:1.625.1
 docker run -itd -p 8080:8080 -p 50000:50000 jenkins:1.625.1
 ```
 
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/01.png" alt=""><figcaption></figcaption></figure>
 
 启动容器后，访问8080端口即可看到jenkins页面
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/02.png" alt=""><figcaption></figcaption></figure>
 
 
 ### 漏洞复现
 
 ```
 python3 vulcat.py <URL> -a jenkins -v unauth
+
+# 注意, vulcat-v2.0.0版本及以上, 应使用以下命令
+python3 vulcat.py -u <URL> -v jenkins-unauth
 ```
 
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/03.png" alt=""><figcaption></figcaption></figure>
 
 你可以使用Request数据包：
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/04.png" alt=""><figcaption></figcaption></figure>
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/09.png" alt=""><figcaption></figcaption></figure>
 
 
 #### 支持--shell选项
 ```
 python3 vulcat.py <URL> -a jenkins -v unauth --shell
+
+# 注意, vulcat-v2.0.0版本及以上, -a选项被移除, 应使用以下命令
+python3 vulcat.py <URL> -v jenkins-unauth --shell
+
 ```
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/05.png" alt=""><figcaption></figcaption></figure>
 
 * id
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/06.png" alt=""><figcaption></figcaption></figure>
 
 * ls -l
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/07.png" alt=""><figcaption></figcaption></figure>
 
 * cat /etc/passwd | vcsearch .{0,20}root.{0,800}
-<figure><img src="../../../static/imgs/vulns-jenkins/unauth/08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/vulns/jenkins/unauth/08.png" alt=""><figcaption></figcaption></figure>

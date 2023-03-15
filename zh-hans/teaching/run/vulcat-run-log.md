@@ -11,7 +11,7 @@
 ```
 python3 vulcat.py -u <URL>
 ```
-<figure><img src="../../../static/imgs/usage/log_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_01.png" alt=""><figcaption></figcaption></figure>
 
 ## 日志2级
 
@@ -19,7 +19,7 @@ python3 vulcat.py -u <URL>
 ```
 python3 vulcat.py -u <URL> --log 2
 ```
-<figure><img src="../../../static/imgs/usage/log_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_02.png" alt=""><figcaption></figcaption></figure>
 
 
 ## 日志3级
@@ -28,7 +28,7 @@ python3 vulcat.py -u <URL> --log 2
 ```
 python3 vulcat.py -u <URL> --log 3
 ```
-<figure><img src="../../../static/imgs/usage/log_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_03.png" alt=""><figcaption></figcaption></figure>
 
 
 ## 日志4级
@@ -37,7 +37,7 @@ python3 vulcat.py -u <URL> --log 3
 ```
 python3 vulcat.py -u <URL> --log 4
 ```
-<figure><img src="../../../static/imgs/usage/log_04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_04.png" alt=""><figcaption></figcaption></figure>
 
 ## 日志5级
 
@@ -45,7 +45,7 @@ python3 vulcat.py -u <URL> --log 4
 ```
 python3 vulcat.py -u <URL> --log 5
 ```
-<figure><img src="../../../static/imgs/usage/log_05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_05.png" alt=""><figcaption></figcaption></figure>
 
 ## 日志6级
 
@@ -53,4 +53,4 @@ python3 vulcat.py -u <URL> --log 5
 ```
 python3 vulcat.py -u <URL> --log 6
 ```
-<figure><img src="../../../static/imgs/usage/log_06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/log_06.png" alt=""><figcaption></figcaption></figure>

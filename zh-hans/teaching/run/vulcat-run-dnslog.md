@@ -17,12 +17,12 @@ vulcat目前支持三个DNSLOG平台
 
 以fastjson漏洞为例，添加日志4级选项
 ```
-python3 vulcat.py -u <URL> -a fastjson --log 4
+python3 vulcat.py -u <URL> -v fastjson --log 4
 ```
 
 找到fastjson的请求日志，可以看到数据包内使用的是 dnslog.cn
 
-<figure><img src="../../../static/imgs/usage/dns_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/dns_01.png" alt=""><figcaption></figcaption></figure>
 
 强制使用dnslog.cn平台：
 
@@ -36,14 +36,14 @@ python3 vulcat.py -u <URL> --dns dnslog-cn
 
 将 域名和Token 写入config.yaml对应的位置，保存文件
 
-<figure><img src="../../../static/imgs/usage/dns_02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/dns_02.png" alt=""><figcaption></figcaption></figure>
 
 运行扫描，vulcat会**自动切换**为 ceye.io
 ```
-python3 vulcat.py -u <URL> -a fastjson --log 4
+python3 vulcat.py -u <URL> -v fastjson --log 4
 ```
 
-<figure><img src="../../../static/imgs/usage/dns_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/dns_03.png" alt=""><figcaption></figcaption></figure>
 
 强制使用ceye.io平台
 ```
@@ -56,14 +56,14 @@ python3 vulcat.py -u <URL> --dns ceye
 
 将 域名和Token 写入config.yaml对应的位置，保存文件
 
-<figure><img src="../../../static/imgs/config/dnslog_pw_04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/config/dnslog_pw_04.png" alt=""><figcaption></figcaption></figure>
 
 运行扫描，vulcat会**自动切换**为 ceye.io
 ```
-python3 vulcat.py -u <URL> -a fastjson --log 4
+python3 vulcat.py -u <URL> -v fastjson --log 4
 ```
 
-<figure><img src="../../../static/imgs/usage/dns_04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage/dns_04.png" alt=""><figcaption></figcaption></figure>
 
 强制使用dnslog.pw平台
 ```
@@ -79,20 +79,20 @@ python3 vulcat.py -u <URL> --dns dnslog-pw
 
 添加--dns选项，强制使用 dnslog.cn
 ```
-python3 vulcat.py -u <URL> -a fastjson --log 4 --dns dnslog-cn
+python3 vulcat.py -u <URL> -v fastjson --log 4 --dns dnslog-cn
 ```
 
 强制使用 ceye.io：
 ```
 # 记得要在config.yaml添加 域名和Token，否则就算指定ceye也无法正常使用
-python3 vulcat.py -u <URL> -a fastjson --log 4 --dns ceye
+python3 vulcat.py -u <URL> -v fastjson --log 4 --dns ceye
 ```
 
 
 强制使用 dnslog.pw：
 ```
 # 记得要在config.yaml添加 域名和Token，否则就算指定dnslog.pw也无法正常使用
-python3 vulcat.py -u <URL> -a fastjson --log 4 --dns dnslog-pw
+python3 vulcat.py -u <URL> -v fastjson --log 4 --dns dnslog-pw
 ```
 
 
