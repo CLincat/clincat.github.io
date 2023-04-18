@@ -17,6 +17,17 @@ python3 vulcat.py -u <URL> -v <NAME>
 python3 vulcat.py -u <URL> --vuln <NAME>
 ```
 
+### vulcat内置攻击载荷
+
+你可以使用选项<code>--list</code>查看vulcat所有内置的攻击载荷
+
+```bash
+python3 vulcat.py --list
+```
+
+<figure><img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage-base/list.png" alt=""><figcaption></figcaption></figure>
+
+
 ### 跳过指纹识别阶段
 
 <figure>默认情况下，vulcat将会对目标进行指纹识别<img src="https://cdn.staticaly.com/gh/clincat/blog-imgs@main/hub/static/imgs/usage-vuln/01.png" alt=""><figcaption></figcaption></figure>
